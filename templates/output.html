@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../res/css/output.css" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/output.css') }}" />
     <title>text summarizer</title>
   </head>
   <body>
     <div>
       <p>{{myoutput}}</p>
     </div>
-    <a href="./output.html">BACK</a>
+    <a href="./input.html">BACK</a>
   </body>
 </html>
