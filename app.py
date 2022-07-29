@@ -13,6 +13,11 @@ last_linear_layer = model.lm_head
 # initializing app
 app = Flask("Text Summarizer")
 
+
+#opening of the app
+@app.route("/")
+def home():
+    return render_template("input.html")
 # post request code
 @app.route("/process", methods=["POST"])
 def prediction():
