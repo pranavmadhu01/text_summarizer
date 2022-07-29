@@ -9,16 +9,16 @@
 <br>
 <h2>Installation</h2>
 <ul>
-  <li>Create a virtual env by using<br>
-    (<b>#python3 -m venv .venv<b>)
+  <li>Create a virtual env by using<br><br>
+    #python3 -m venv .venv
   </li>
-  <li>Starting the virtualenv by using<br>
-    (<b>#source .venv/bin/activate<b>)
+  <li>Starting the virtualenv by using<br><br>
+    #source .venv/bin/activate
   </li>
-  <li>Install the requiremnents from requirements.txt
-    (<b>#pip install -r requirements.txt<b>)
+  <li>Install the requirements from requirements.txt<br><br>
+    #pip install -r requirements.txt
   </li>
-  <li>Run the flask app
-    (<b>#flask run<b>)
+  <li>Run the flask app<br><br>
+    #flask run
   </li>
 </ul>
